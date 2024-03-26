@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+        body {
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ffffff;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        #header-img {
+            height: auto;
+            max-width: 100%;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        @media (max-width: 767px) {
+            .header {
+                padding: 20px 20px 20px 20px;
+            }
+        }
+
+        .navbar {
+            background-color: #48135a;
+            border-top: 3px solid #bf9f00;
+            border-width: 3px 0px 0px 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #bf9f00;
+            color: #012c6d;
+        }
+
+        /* Dropdown styling */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+        /* Banner section Workshop */
+
+        .banner {
+            background-image: url('');
+            background-color: slategray;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 129px;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+        }
+
+        p {
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            margin-top: 0;
+            margin-bottom: .9rem;
+            color: #333;
+
+        }
+
+        /* footer */
+        .text-body{
+            padding: 10px;
+        }
+      
+        .site-footer {
+            background-color: #48135a;
+            color: #cccccc;
+            padding: 20px;
+            font-size: 0.8em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-media-links {
+            margin-bottom: 10px;
+        }
+
+        .social-icon {
+            margin-right: 5px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer-nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-text p {
+            margin: 5px 0;
+            color: white;
+        }
+
+        .windows-activation-notice {
+            color: #ffffff;
+            font-size: 0.7em;
+            margin-top: 10px;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="https://cai.ieee.org/2023/">
+            <img id="header-img"
+                src="./Assets/CAI-logo-gray-blue-full-name-1-q6k99njo2mgoxmqm24aw6v842dp6r7dareg33p4izc.png"
+                alt="header Image">
+        </a>
+    </div>
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <div class="dropdown">
+            <a href="#about">ABOUT</a>
+            <div class="dropdown-content">
+                <a href="#">ORGANIZING COMMITTEE</a>
+                <a href="#">EQUITY,DIVERSITY &C INCLUSION STATEMENT</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#verticals">VERTICALS</a>
+            <div class="dropdown-content">
+                <a href="#">VERTICAL</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#info">INFORMATION FOR AUTHORS</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#events">SPEAKERS AND EVENTS</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="#register">REGISTRATION</a>
+
+        <div class="dropdown">
+            <a href="#attend">ATTEND</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#supporters">EXHIBITORS & SUPPORTERS</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#ieee">IEEE CAI 2024</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="Workshop">
+        <div class="banner">
+            <h2>Workshop</h2>
+        </div>
+    </section>
+
+    <section class="text">
+        <div class="text-body">
+            <div>
+                <h2>
+                    <span style="color: #800080">Ethical Challenges within Artificial Intelligence – From Principles to
+                        Practice</span>
+                </h2>
+                <p>
+                    <strong>June 5, 11:15am <br>Location: Santa Clara I
+                    </strong>
+                </p>
+                <p>
+                    <strong>"Organized by "<a href="https://ieeecscai.wpengine.com/2023/jim-torresen/">Jim
+                            Tørresen</a>",
+                        Professor, Research Group for Robotics and Intelligent Systems, University of Oslo, Norway, and
+                        "<a href="https://ieeecscai.wpengine.com/2023/keeley-crockett/">Keeley Crockett</a>", Professor
+                        in
+                        Computational Intelligence, Manchester Metropolitan University, UK"
+                    </strong>
+                </p>
+                <div>
+                    <div>
+                        <span>
+                            "Artificial intelligence (AI) has entered an increasing number of different domains. A
+                            growing
+                            number of people – in the general public as well as in research and development – have
+                            started
+                            to
+                            consider a number of potential ethical challenges and other issues related to the
+                            development
+                            and
+                            use of AI technologies. The aim of this workshop is to briefly overview the global AI
+                            legislation
+                            landscape and introduce a range of ethical issues that need to be considered by data
+                            scientists,
+                            software development teams, industry professionals and academics and practically apply the
+                            consequence scanning toolkit to evaluate the impact of AI research ideas / new products and
+                            services
+                            on individuals and society. There is no specific prerequisite knowledge required."
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>
+                    <span style="color: #800080">Ethical Challenges within Artificial Intelligence – From Principles to
+                        Practice</span>
+                </h2>
+                <p>
+                    <strong>June 5, 11:15am <br>Location: Santa Clara I
+                    </strong>
+                </p>
+                <p>
+                    <strong>"Organized by "<a href="https://ieeecscai.wpengine.com/2023/jim-torresen/">Jim
+                            Tørresen</a>",
+                        Professor, Research Group for Robotics and Intelligent Systems, University of Oslo, Norway, and
+                        "<a href="https://ieeecscai.wpengine.com/2023/keeley-crockett/">Keeley Crockett</a>", Professor
+                        in
+                        Computational Intelligence, Manchester Metropolitan University, UK"
+                    </strong>
+                </p>
+                <div>
+                    <div>
+                        <span>
+                            "Artificial intelligence (AI) has entered an increasing number of different domains. A
+                            growing
+                            number of people – in the general public as well as in research and development – have
+                            started
+                            to
+                            consider a number of potential ethical challenges and other issues related to the
+                            development
+                            and
+                            use of AI technologies. The aim of this workshop is to briefly overview the global AI
+                            legislation
+                            landscape and introduce a range of ethical issues that need to be considered by data
+                            scientists,
+                            software development teams, industry professionals and academics and practically apply the
+                            consequence scanning toolkit to evaluate the impact of AI research ideas / new products and
+                            services
+                            on individuals and society. There is no specific prerequisite knowledge required."
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>
+                    <span style="color: #800080">Ethical Challenges within Artificial Intelligence – From Principles to
+                        Practice</span>
+                </h2>
+                <p>
+                    <strong>June 5, 11:15am <br>Location: Santa Clara I
+                    </strong>
+                </p>
+                <p>
+                    <strong>"Organized by "<a href="https://ieeecscai.wpengine.com/2023/jim-torresen/">Jim
+                            Tørresen</a>",
+                        Professor, Research Group for Robotics and Intelligent Systems, University of Oslo, Norway, and
+                        "<a href="https://ieeecscai.wpengine.com/2023/keeley-crockett/">Keeley Crockett</a>", Professor
+                        in
+                        Computational Intelligence, Manchester Metropolitan University, UK"
+                    </strong>
+                </p>
+                <div>
+                    <div>
+                        <span>
+                            "Artificial intelligence (AI) has entered an increasing number of different domains. A
+                            growing
+                            number of people – in the general public as well as in research and development – have
+                            started
+                            to
+                            consider a number of potential ethical challenges and other issues related to the
+                            development
+                            and
+                            use of AI technologies. The aim of this workshop is to briefly overview the global AI
+                            legislation
+                            landscape and introduce a range of ethical issues that need to be considered by data
+                            scientists,
+                            software development teams, industry professionals and academics and practically apply the
+                            consequence scanning toolkit to evaluate the impact of AI research ideas / new products and
+                            services
+                            on individuals and society. There is no specific prerequisite knowledge required."
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <h2>
+                    <span style="color: #800080">Ethical Challenges within Artificial Intelligence – From Principles to
+                        Practice</span>
+                </h2>
+                <p>
+                    <strong>June 5, 11:15am <br>Location: Santa Clara I
+                    </strong>
+                </p>
+                <p>
+                    <strong>"Organized by "<a href="https://ieeecscai.wpengine.com/2023/jim-torresen/">Jim
+                            Tørresen</a>",
+                        Professor, Research Group for Robotics and Intelligent Systems, University of Oslo, Norway, and
+                        "<a href="https://ieeecscai.wpengine.com/2023/keeley-crockett/">Keeley Crockett</a>", Professor
+                        in
+                        Computational Intelligence, Manchester Metropolitan University, UK"
+                    </strong>
+                </p>
+                <div>
+                    <div>
+                        <span>
+                            "Artificial intelligence (AI) has entered an increasing number of different domains. A
+                            growing
+                            number of people – in the general public as well as in research and development – have
+                            started
+                            to
+                            consider a number of potential ethical challenges and other issues related to the
+                            development
+                            and
+                            use of AI technologies. The aim of this workshop is to briefly overview the global AI
+                            legislation
+                            landscape and introduce a range of ethical issues that need to be considered by data
+                            scientists,
+                            software development teams, industry professionals and academics and practically apply the
+                            consequence scanning toolkit to evaluate the impact of AI research ideas / new products and
+                            services
+                            on individuals and society. There is no specific prerequisite knowledge required."
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-media-links">
+
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+                <a href="#" class="social-icon">IN</a>
+            </div>
+            <nav class="footer-nav">
+
+                <a href="#">IEEE Privacy Policy</a>
+                <a href="#">Accessibility Statement</a>
+                <a href="#">IEEE Nondiscrimination Policy</a>
+            </nav>
+            <div class="footer-text">
+                <p>© 2023 IEEE – All rights reserved.</p>
+                <p>Use of this website signifies your agreement to the IEEE Terms and Conditions.</p>
+                <p>A not-for-profit organization, IEEE is the world's largest technical professional organization
+                    dedicated to advancing technology for the benefit of humanity.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

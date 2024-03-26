@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.head {
+    color: black;
+    background-color: rgb(63, 216, 63);
+    text-align: center;
+    height: 40px;
+    width: auto;
+    padding: 20px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.fruits {
+    background-color: #d9f7e8;
+    padding: 20px;
+}
